@@ -33,7 +33,7 @@ getstatusoutput(f"wget {photo1} -O 'photo.jpg'")
 photo = "photo.jpg"
 
 credit ="😎𝖘:)™~" 
-OWNER = int(os.environ.get("OWNER", 2032347579))
+OWNER = int(os.environ.get("OWNER", 6824252172))
 try: 
     ADMINS=[] 
     for x in (os.environ.get("ADMINS", "2032347579 5702090016").split()):  
@@ -43,9 +43,9 @@ except ValueError:
 ADMINS.append(OWNER)
 
 bot = Client("bot",    
-   bot_token="7453205223:AAGjZ03nRAntwbCw1rDd_4KYllr5lE-3uaw",    
-   api_id= 21179966,    
-   api_hash= "d97919fb0a3c725e8bb2a25bbb37d57c"
+   bot_token="8747618982:AAFll8o9K8Hid2dcDce9miAddDtB9Tg3yH0",    
+   api_id= 35279304,    
+   api_hash= "49ea7646f4251b3ca5a7798c61bb5e9f"
 )
 
 @bot.on_message(filters.command(["start"]))    
